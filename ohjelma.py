@@ -27,7 +27,7 @@ class Basket:
 
     def delete_product(self, product, product_price):
         for i in self.contents:
-            if i == product:
+            if i == produ:
                 self.contents.remove(product)
         self.price -= product_price
                     
