@@ -19,7 +19,7 @@ class Basket:
         return self.contents
 
     def return_price(self):
-        return self.contents
+        return self.priv
 
     def add_product(self, product, product_price):
         self.contents.append(product)
