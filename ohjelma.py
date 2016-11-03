@@ -19,7 +19,7 @@ class Basket:
         return self.contents
 
     def return_price(self):
-        return self.priv
+        return self.price
 
     def add_product(self, product, product_price):
         self.contents.append(product)
@@ -27,7 +27,7 @@ class Basket:
 
     def delete_product(self, product, product_price):
         for i in self.contents:
-            if i == produ:
+            if i == product:
                 self.contents.remove(product)
         self.price -= product_price
                     
